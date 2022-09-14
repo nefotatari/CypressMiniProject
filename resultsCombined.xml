@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<testsuites failures="1" errors="0" tests="9" skipped="0">
+  <testsuite name="Root Suite" timestamp="2022-09-14T16:02:25" tests="0" file="cypress\e2e\Integration\TC3_Dashboard.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Implementation of user register" timestamp="2022-09-14T16:02:25" tests="2" time="17.5800" failures="0">
+    <testcase name="Implementation of user register should Login succesfully" time="4.6480" classname="should Login succesfully"/>
+    <testcase name="Implementation of user register should add and remove items to dashboard" time="12.9320" classname="should add and remove items to dashboard"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-09-14T16:03:14" tests="0" file="cypress\e2e\Integration\TC5_EmptyShoppingCartTest.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Implementation of user register" timestamp="2022-09-14T16:03:14" tests="1" time="26.2640" failures="0">
+    <testcase name="Implementation of user register should add items to shopping cart" time="26.2640" classname="should add items to shopping cart"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-09-14T16:03:50" tests="0" file="cypress\e2e\Integration\TC6_AddItemToCompareList.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Implementation of compare list scenario" timestamp="2022-09-14T16:03:50" tests="2" time="9.2000" failures="0">
+    <testcase name="Implementation of compare list scenario should Login succesfully" time="4.4420" classname="should Login succesfully"/>
+    <testcase name="Implementation of compare list scenario add product to wishlist using interception" time="4.7580" classname="add product to wishlist using interception"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-09-14T16:02:50" tests="0" file="cypress\e2e\Integration\TC4_ShoppingCartTest.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Implementation of user register" timestamp="2022-09-14T16:02:50" tests="1" time="16.3250" failures="0">
+    <testcase name="Implementation of user register should add items to shopping cart" time="16.3250" classname="should add items to shopping cart"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-09-14T16:01:45" tests="0" file="cypress\e2e\Integration\TC1_UserRegister.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Implementation of user register" timestamp="2022-09-14T16:01:45" tests="1" time="0.0000" failures="1">
+    <testcase name="Implementation of user register should register succesfully" time="0.0000" classname="should register succesfully">
+      <failure message="Timed out retrying after 4000ms: expected 'https://demo.nopcommerce.com/register?returnurl=%2F' to include '/registerresult'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected 'https://demo.nopcommerce.com/register?returnurl=%2F' to include '/registerresult'
+    at Context.eval (webpack:///./cypress/e2e/Integration/TC1_UserRegister.cy.js:25:15)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-09-14T16:02:11" tests="0" file="cypress\e2e\Integration\TC2_UserLogIn.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Implementation of user login" timestamp="2022-09-14T16:02:11" tests="2" time="7.1320" failures="0">
+    <testcase name="Implementation of user login should Login succesfully" time="5.9180" classname="should Login succesfully"/>
+    <testcase name="Implementation of user login should LogOut" time="1.2140" classname="should LogOut"/>
+  </testsuite>
+</testsuites>
