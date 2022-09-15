@@ -4,14 +4,17 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://demo.nopcommerce.com/',
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('cypress-mochawesome-reporter/plugin')(on);
     },
     chromeWebSecurity : false,
     screenshotOnRunFailure : true,
-    reporter: 'junit',
+    reporter: 'cypress-mochawesome-reporter',
     reporterOptions: {
-      mochaFile: 'results/test-output-[hash].xml',
-      html: true
+      charts: true,
+      reportPageTitle: 'custom-title',
+      embeddedScreenshots: true,
+      inlineAssets: true,
+      saveAllAttempts: false,
     }
   },
 });

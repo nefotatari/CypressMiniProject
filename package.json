@@ -1,19 +1,13 @@
 {
   "devDependencies": {
     "cypress": "^10.8.0",
-    "cypress-multi-reporters": "^1.6.1",
-    "mocha-junit-reporter": "^2.0.2",
-    "mochawesome": "^7.1.3",
-    "mochawesome-merge": "^4.2.1",
-    "mochawesome-report-generator": "^6.2.0"
+    "cypress-mochawesome-reporter": "^3.2.2"
   },
   "dependencies": {
-    "cypress-real-events": "^1.7.1",
-    "junit-report-merger": "^4.0.0"
+    "cypress-real-events": "^1.7.1"
   },
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "merge-reports": "jrm resultsCombined.xml \"results/*.xml\""
+    "cy:run": "cypress run"
   }
 }
